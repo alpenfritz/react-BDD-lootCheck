@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 export class Wallet extends Component {
   render() {
     return (
-      <div>
+      <div className="balance">
         <h3>Wallet balance: {this.props.balance}</h3>
       </div>
     );
