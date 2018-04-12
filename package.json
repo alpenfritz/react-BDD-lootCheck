@@ -23,5 +23,13 @@
     "fetch-mock": "^6.3.0",
     "jest-cli": "20.0.4",
     "redux-mock-store": "^1.5.1"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/setupTests.js",
+      "!src/tempPolyfills.js",
+      "!src/index.js"
+    ]
   }
 }
